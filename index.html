@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Aethrix</title>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    
+    <script type="importmap">
+    {
+        "imports": {
+            "@math/": "/engine/core/math/",
+            "@math/radians": "/engine/core/math/radians.js",
+            "@geometry/": "/engine/core/geometry/",
+            "@rendering/": "/engine/core/rendering/",
+            "@input/": "/engine/core/input/",
+            "@event/": "/engine/core/input/event/",
+            "@engine/aethrix": "/engine/aethrix.js",
+            "@collision/aabb": "/engine/core/geometry/collision/axisalignedboundingbox.js",
+            "@collision/sat": "/engine/core/geometry/collision/separatingaxistheorem.js",
+            "@loop/looper": "/engine/core/loop/looper.js"
+        }
+    }
+    </script>
+    
+</head>
+<body>
+  
+    <main>
+        <canvas></canvas>
+    </main>
+    
+    <script type="module" src="./main.js"></script>
+    
+</body>
+</html>
